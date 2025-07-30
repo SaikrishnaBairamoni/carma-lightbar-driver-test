@@ -36,6 +36,5 @@ while [[ $# -gt 0 ]]; do
             ;;
       esac
 done
-git clone https://github.com/usdot-fhwa-stol/carma-msgs.git "${dir}"/CARMAMsgs --branch "${BRANCH}" --depth 1
-git clone https://github.com/usdot-fhwa-stol/carma-utils.git "${dir}"/CARMAUtils --branch "${BRANCH}" --depth 1
-
+git clone https://github.com/SaikrishnaBairamoni/carma-msgs-test "${dir}"/CARMAMsgs --branch "${BRANCH}" --depth 1
+git clone https://github.com/SaikrishnaBairamoni/carma-utils-test.git "${dir}"/CARMAUtils --branch "${BRANCH}" --depth 1
